@@ -4,11 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c532cb3-151a-4984-8adb-b7c66e580657" name="Changes" comment="" />
+    <list default="true" id="8c532cb3-151a-4984-8adb-b7c66e580657" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/SBJavaCourse/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/SBJavaCourse/RouteCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/SBJavaCourse/StationIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/SBJavaCourse/core/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/by/Yandr2022/SBJavaCourse/core/Station.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/Yandr2022/SBJavaCourse/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/Yandr2022/SBJavaCourse/RouteCalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2UJ9O9QJWDAvT0AwpxgFtdM9oby" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -19,9 +55,79 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43218392"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.RouteCalculatorTest.testCalculateDuration">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.Yandr2022.SBJavaCourse.Demo" />
+      <module name="P2_M8_L2_UnitTestingExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Yandr2022.SBJavaCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P2_M8_L2_UnitTestingExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Yandr2022.SBJavaCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.Yandr2022.SBJavaCourse" />
+      <option name="MAIN_CLASS_NAME" value="by.Yandr2022.SBJavaCourse.RouteCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouteCalculatorTest.testCalculateDuration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="P2_M8_L2_UnitTestingExample" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.Yandr2022.SBJavaCourse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.Yandr2022.SBJavaCourse" />
+      <option name="MAIN_CLASS_NAME" value="by.Yandr2022.SBJavaCourse.RouteCalculatorTest" />
+      <option name="METHOD_NAME" value="testCalculateDuration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="P2_M8_L7_UnitTestingExample" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="P2_M8_L7_UnitTestingExample" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RouteCalculatorTest.testCalculateDuration" />
+        <item itemvalue="JUnit.RouteCalculatorTest" />
+        <item itemvalue="Application.Demo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
