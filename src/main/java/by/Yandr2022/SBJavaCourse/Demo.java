@@ -4,6 +4,8 @@ package by.Yandr2022.SBJavaCourse;
 
 import by.Yandr2022.SBJavaCourse.core.Line;
 import by.Yandr2022.SBJavaCourse.core.Station;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -18,13 +20,15 @@ public class Demo
 {
     private static String dataFile = "src/main/resources/map.json";
     private static Scanner scanner;
+    private static Logger logger;
 
     private static StationIndex stationIndex;
+
 
     public static void main(String[] args)
     {
         RouteCalculator calculator = getRouteCalculator();
-
+logger = LogManager.getRootLogger();
         System.out.println("Программа расчёта маршрутов метрополитена Санкт-Петербурга\n");
         scanner = new Scanner(System.in);
         for(;;)
@@ -77,6 +81,7 @@ public class Demo
             if(station != null) {
                 return station;
             }
+            logger.info("Станция не найдена " + line);
             System.out.println("Станция не найдена :(");
         }
     }
